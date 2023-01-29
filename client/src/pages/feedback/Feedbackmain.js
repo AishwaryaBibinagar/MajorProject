@@ -111,9 +111,9 @@ function Feedbackmain() {
                   <h1 className="text-medium ">SEM8</h1>
                 </div>
           </Col>
-          <Col span={8}>
+          <Col span={24}>
                     <div className="py-5 text-black">
-                        <a className="text-red text-medium align-items-center py-3 underline" href="https://docs.google.com/forms/d/e/1FAIpQLSftVLPTb7ymktF3KoWu2rwAtRoXXSJrlo5p9uWQzNRayNJ1RQ/viewform?usp=sf_link">
+                        <a className="card p-3 cursor-pointer text-medium align-items-center py-3 underline" href="https://docs.google.com/forms/d/e/1FAIpQLSftVLPTb7ymktF3KoWu2rwAtRoXXSJrlo5p9uWQzNRayNJ1RQ/viewform?usp=sf_link">
                             Raise a Complaint
                         </a>
 

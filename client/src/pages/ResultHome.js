@@ -75,7 +75,7 @@ function Home() {
                     navigate("/Analysis");
                   }}
                 >
-                  <h1 className="text-medium ">2019-2023 RESULT ANALYSIS</h1>
+                  <h1 className="text-medium text-center">2019-2023 RESULT ANALYSIS</h1>
                 </div>
               </Col>
 
