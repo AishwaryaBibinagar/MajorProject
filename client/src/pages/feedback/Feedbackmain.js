@@ -9,7 +9,7 @@ function Feedbackmain() {
             <div className="header d-flex justify-content-between align-items-center py-3">
                 <h1 className="text-white">
                     {" "}
-                    <b className="secondary-text">IT </b> FEEDBACK{" "}
+                    <b className="text-blue">IT </b> FEEDBACK{" "}
                 </h1>
                 <div>
                     <h1

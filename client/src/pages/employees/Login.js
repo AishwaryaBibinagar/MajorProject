@@ -28,20 +28,18 @@ function Login() {
   };
   return (
     <div className="white d-flex align-items-center justify-content-center h-screen">
-      <Form layout="vertical w-400 primary p-4" onFinish={onFinish}>
-        <h1 className="text-medium"><b>RESULTS</b></h1>
+      <Form layout="vertical w-400 secondary p-4" onFinish={onFinish}>
+        <h1 className="text-medium">Faculty - Login</h1>
         <hr />
-        <h1 className="text-medium">Employee - Login</h1>
-        <hr />
-        <Form.Item name="employeeId" label="Employee ID">
+        <Form.Item name="employeeId" label="Faculty ID">
           <Input />
         </Form.Item>
         <Form.Item name="password" label="Password">
           <Input type="password" />
         </Form.Item>
 
-        <button className="secondary text-black px-5 my-2 w-100">Login</button>
-        <Link to="/register" className="text-mini underline text-white">
+        <button className="primary text-black px-5 my-2 w-100">Login</button>
+        <Link to="/register" className="text-mini underline text-grey">
           Not yet Registered? Click Here To Register
         </Link>
       </Form>

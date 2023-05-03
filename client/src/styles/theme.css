@@ -1,8 +1,8 @@
 
 
 :root {
-  --primary: #e5493879;
-  --secondary: #ae16ea;
+  --primary:#145DA0;
+  --secondary: #7edff4;
 }
 
 *{
@@ -36,6 +36,12 @@
 .text-black {
   color: rgba(0, 0, 0, 0.8) !important;
 }
+.text-grey{
+  color:grey;
+}
+.text-blue{
+  color:rgb(152, 245, 254)
+}
 
 /* border colors */
 .primary-border {
@@ -46,7 +52,7 @@
 }
 
 /* text sizes */
-.tex--mini{
+.text-mini{
   font-size: 16px;
 }
 .text-small {
@@ -122,7 +128,7 @@ i{
   font-size: 22px;
 }
 .underline{
-  text-decoration: underline;
+  text-decoration: underline 2px;
 }
 
 /* antd override */
@@ -179,4 +185,14 @@ td, th {
 }
 .text-center{
   text-align: center;
+}
+.space{
+  margin: 20px;
+}
+
+@media (max-width: 1028px) {
+  .mob{
+    margin-top: 250px;
+    width: 300px;
+  }
 }
